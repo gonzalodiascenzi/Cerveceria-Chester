@@ -1,11 +1,13 @@
 //Requerimientos
 var express = require('express');
-
-//Express
+//Inicializo express en la variable app
 var app = express();
-
-////////////////////////////////
-
-app.get('/', function(req, res) {
-  res.send('Ruta por defecto');
+//Utilizo la funcion listen de express para inicializar el servidor
+app.listen(3000, () => {
+  console.log('Servidor levantado exitosamente');
+})
+//Rutas y vistas
+app.get('/', (req, res) => {
+  res.send('Enviar vista de la pagina por defecto'); //sensFile, renderFile
 });
+
