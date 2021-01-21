@@ -4,9 +4,7 @@
   "description": "Desarrollo individual de ecommerce de cerveceria",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/bin/www"
-
+    "start": "nodemon ./src/app"
   },
   "repository": {
     "type": "git",
