@@ -3,8 +3,9 @@
 /**
  * Module dependencies.
  */
+
 var app = require('../app');
-var debug = require('debug')('site:server');
+var debug = require('debug')('cerveceria-chester:server');
 var http = require('http');
 
 /**

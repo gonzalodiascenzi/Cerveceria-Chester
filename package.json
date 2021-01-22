@@ -1,22 +1,16 @@
 {
-  "name": "cerveceriachester",
-  "version": "1.0.0",
-  "description": "Desarrollo individual de ecommerce de cerveceria",
-  "main": "app.js",
+  "name": "cerveceria-chester",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon ./src/app"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gonzalodiascenzi/CerveceriaChester.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gonzalodiascenzi/CerveceriaChester/issues"
-  },
-  "homepage": "https://github.com/gonzalodiascenzi/CerveceriaChester#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
