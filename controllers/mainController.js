@@ -4,12 +4,8 @@ const generateId = require("../helpers/generateId");
 
 const controller = {
     //Root - Inicio
-    index: async (req, res) => {
-        const allProducts = readJson();
-        console.log(allProducts);
-        res.render('index', {
-            allProducts : allProducts
-        });
+    index: (req, res) => {
+    return res.render('views/index');
     }
 };
 module.exports = controller;
