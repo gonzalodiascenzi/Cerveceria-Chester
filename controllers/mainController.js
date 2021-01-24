@@ -3,7 +3,8 @@ const writeJson = require("../helpers/writeJson");
 const generateId = require("../helpers/generateId");
 
 const controller = {
-    //Root - Inicio
+    //Fuciones de controllers
+
     index: (req, res) => {
     return res.render('views/index');
     }
